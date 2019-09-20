@@ -15,12 +15,12 @@ namespace CarRental
             Car c = new Car();
             c.RegistrationNumber = "ABC123";
             c.HorsePower = 170;
-            c.color = "Black";
+            c.Color = "Black";
 
             Console.ReadKey();
             Console.WriteLine("Car Created!\n");
             
-            Console.WriteLine("We have a {0} car with registration {1} and {2} hp.", c.color ,c.RegistrationNumber, c.HorsePower);
+            Console.WriteLine("We have a {0} car with registration {1} and {2} hp.", c.Color ,c.RegistrationNumber, c.HorsePower);
             Console.ReadKey();
 
         }
@@ -29,7 +29,7 @@ namespace CarRental
     class Car
     {
         public string RegistrationNumber { get; set; }
-        public string color { get; set; }
+        public string Color { get; set; }
         public int HorsePower { get; set; }
 
     }
